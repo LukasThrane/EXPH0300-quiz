@@ -1,6 +1,3 @@
-// src/components/About.tsx
-
-import React from "react";
 import { Helmet } from "react-helmet";
 import "./About.css";
 
@@ -15,7 +12,7 @@ function About() {
         />
         <meta
           name="keywords"
-          content="EXPH0300, Examen Philosophicum, Quiz App, Vitenskapsteori, Etikk, Bærekraft, Kunnskapstest, Filosofi, Naturvitenskap, Teknologi, Studentverktøy, Læringsverktøy"
+          content="EXPH0300, Examen Philosophicum, Quiz App, Vitenskapsteori, Etikk, Bærekraft, Kunnskapstest, Filosofi, Naturvitenskap, Teknologi, Studentverktøy, Læringsverktøy, Quizlet, Quiz, Exphil"
         />
         <meta
           property="og:title"
@@ -39,10 +36,7 @@ function About() {
         <p>
           <strong>Denne siden er ikke laget i samarbeid med NTNU</strong>
         </p>
-        <p>
-          Alt under her er gpt tekst for SEO. Jeg vil bare teste hvor høyt jeg
-          får det.
-        </p>
+        <p>Alt under er gpt for SEO.</p>
       </section>
 
       <section>
@@ -55,7 +49,8 @@ function About() {
           </strong>{" "}
           ved <strong>NTNU</strong>. Målet med quizen er å hjelpe deg med å
           teste og styrke din forståelse av viktige temaer som vitenskapsteori,
-          etikk, politisk filosofi og bærekraft.
+          etikk, politisk filosofi og bærekraft. Er basically quizlet, men
+          bedre.
         </p>
       </section>
 
@@ -68,6 +63,13 @@ function About() {
           menneske og teknologi, samt forholdet mellom individ og samfunn.
           Gjennom dialog- og diskusjonsbasert undervisning utvikler du evnen til
           kritisk tenkning, argumentasjon og faglig samarbeid.
+        </p>
+        <p>
+          For mer informasjon om kurset, besøk den offisielle{" "}
+          <a href="https://www.ntnu.no/studier/emner/EXPH0300#tab=omEmnet">
+            NTNU-siden for EXPH0300
+          </a>
+          .
         </p>
       </section>
 
@@ -149,8 +151,7 @@ function About() {
         <h2>Kontakt Oss</h2>
         <p>
           Har du spørsmål, forslag eller tilbakemeldinger? Ta gjerne kontakt med
-          oss gjennom emnets Blackboardsider eller send en e-post til{" "}
-          <a href="mailto:kursansvarlig@ntnu.no">kursansvarlig@ntnu.no</a>.
+          oss gjennom emnets Blackboardsider.
         </p>
       </section>
     </div>

@@ -148,7 +148,7 @@ function QuizApp() {
           {`
             {
               "@context": "https://schema.org",
-              "@type": "EducationalOrganization",
+              "@type": "WebApplication",
               "name": "Examen Philosophicum Quiz App",
               "description": "Interaktiv Quiz App designet for EXPH0300 - Examen Philosophicum ved NTNU, fokusert på vitenskapsteori, etikk og bærekraft.",
               "url": "https://din-quiz-app-url.com",
@@ -156,7 +156,14 @@ function QuizApp() {
                 "https://www.facebook.com/din-quiz-app",
                 "https://www.twitter.com/din-quiz-app",
                 "https://www.linkedin.com/company/din-quiz-app"
-              ]
+              ],
+              "applicationCategory": "EducationalApplication",
+              "operatingSystem": "All",
+              "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "NOK"
+              }
             }
           `}
         </script>
