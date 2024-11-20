@@ -153,6 +153,13 @@ function About() {
           Har du spørsmål, forslag eller tilbakemeldinger? Ta gjerne kontakt med
           oss gjennom emnets Blackboardsider.
         </p>
+        <p>
+          For faktiske henvendelser, sjekk ut{" "}
+          <a href="https://github.com/LukasThrane/EXPH0300-quiz">
+            github repoet
+          </a>{" "}
+          og profilen min.
+        </p>
       </section>
     </div>
   );
